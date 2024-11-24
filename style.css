@@ -1,0 +1,59 @@
+* {
+  font-size: 20px;
+}
+.hidden{
+    display: none;
+}
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* -webkit-box-shadow: -1px 5px 20px 0px rgba(0,0,0,0.6);  */
+  box-shadow: -17px -6px 20px 0px rgba(0, 0, 0, 0.6);
+}
+.profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#submit {
+  float: right;
+}
+#result-container {
+  width: 400px;
+}
+#score {
+  color: #198754;
+}
+#result {
+}
+.options {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 8px;
+}
+.options:hover {
+  transition: 0.5s;
+  transform: scale(1.03);
+  border: 2px solid #0d6efd;
+}
+label:hover,
+input:hover {
+  cursor: pointer;
+}
+.btn:hover {
+  cursor: pointer;
+  transition: 1s;
+  transform: scale(1.1);
+}
